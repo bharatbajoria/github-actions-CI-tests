@@ -47,6 +47,15 @@ immediately use this command:
  (https://github.com/bharatbajoria/github-actions-CI-tests/actions/workflows/main.yml/badge.svg)](https://github.com/bharatbajoria/github-actions-CI-tests/actions/workflows/main.yml)
  this tells us if processes are running fine
  
+## Testing
+
+Add a file hello.python
+run - ""make lint""
+it will see if everything runs fine
+now do :
+touch test_hello.py
+add assert command to it
+run - "make test"
  
  
  
